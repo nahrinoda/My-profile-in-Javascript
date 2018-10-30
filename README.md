@@ -4,4 +4,4 @@ This is a JavaScript version of my portfolio website, basically it is an active 
 
 My work on this website is not completed yet, but please, feel free to review and comment.
 
-[See Project](https://nahrinoda.github.io/NahrinOda/home.html)
+[See Project](https://nahrinoda.github.io/My-profile-in-Javascript/landingPage.html)
