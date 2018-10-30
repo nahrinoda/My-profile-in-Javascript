@@ -1,0 +1,219 @@
+:root {
+  --container-bag-color: #333;
+  --left-bg-color: rgba(59, 148, 0, 0.288);
+  --left-button-hover-color: rgba(25, 0, 255, 0.3);
+  --right-bg-color: rgba(109, 83, 0, 0.555);
+  --right-button-hover-color: rgba(255, 0, 0, 0.3);
+  --hover-width: 75%;
+  --other-width: 25%;
+  --speed: 1000ms;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+.textBox {
+  width: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 3rem;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.button {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  height: 2.5rem;
+  padding-top: 1.3rem;
+  width: 15rem;
+  text-align: center;
+  color: #fff;
+  border: #fff solid 0.2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  transform: translateX(-50%);
+}
+
+.split.left .button:hover {
+  background-color: var(--left-button-hover-color);
+  border-color: var(--left-button-hover-color);
+}
+
+.split.right .button:hover {
+  background-color: var(--right-button-hover-color);
+  border-color: var(--right-button-hover-color);
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: var(--container-bag-color);
+}
+
+.split {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.split.left {
+  left: 0;
+  background: url("../img/orange.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.split.left:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: var(--left-bg-color);
+}
+
+.split.right {
+  right: 0;
+  background: url("../img/ducks.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.split.right:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: var(--right-bg-color);
+}
+
+.split.left,
+.split.right,
+.split.right:before,
+.split.left:before {
+  transition: var(--speed) all ease-in-out;
+}
+
+.hover-left .left {
+  width: var(--hover-width);
+}
+
+.hover-left .right {
+  width: var(--other-width);
+}
+
+.hover-left .right:before {
+  z-index: 2;
+}
+
+.hover-right .right {
+  width: var(--hover-width);
+}
+
+.hover-right .left {
+  width: var(--other-width);
+}
+
+.hover-right .left:before {
+  z-index: 2;
+}
+
+.myImg {
+  border-radius: 50%;
+  border: #fff solid 0.2rem;
+  display: block;
+  width: 12%;
+  position: absolute;
+  top: 20%;
+  left: 44%;
+  animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 2rem;
+    white-space: pre-wrap;
+    left: 50%;
+    top: 38%;
+  }
+  .button {
+    width: 12rem;
+  }
+  .myImg {
+    width: 50%;
+    left: 25%;
+    top: 5%;
+  }
+}
+
+@media (max-height: 700px) {
+  .button {
+    top: 70%;
+  }
+}
+
+#particles-js {
+  /* background: #ff0000; */
+  width: 100%;
+  height: 100%;
+}
+
+/* .hide1,
+.hide2,
+.hide3 {
+  opacity: 0;
+} */
+
+.card {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 50%;
+  left: 30%;
+  color: #fff;
+}
