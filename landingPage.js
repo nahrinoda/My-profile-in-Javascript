@@ -125,29 +125,29 @@ function runEvent(e) {
 //   e.preventDefault();
 // }
 
-// Show Greetings
-function showGreetings(greeting) {
-  // Create a div
-  const greetingDiv = document.createElement("h2");
+// // Show Greetings
+// function showGreetings(greeting) {
+//   // Create a div
+//   const greetingDiv = document.createElement("h2");
 
-  // Get element
-  const card = document.querySelector(".card");
-  const heading = document.querySelector(".heading");
+//   // Get element
+//   const card = document.querySelector(".card");
+//   const heading = document.querySelector(".heading");
 
-  //Add Class
-  greetingDiv.className = "greetings";
+//   //Add Class
+//   greetingDiv.className = "greetings";
 
-  // Create text node and append to div
-  greetingDiv.appendChild(document.createTextNode("Hi, my name is Nahrin Oda"));
+//   // Create text node and append to div
+//   greetingDiv.appendChild(document.createTextNode("Hi, my name is Nahrin Oda"));
 
-  // Insert greeting in
-  card.insertBefore(greetingDiv, heading);
+//   // Insert greeting in
+//   card.insertBefore(greetingDiv, heading);
 
-  // Clear greeting in 3 seconds
-  setTimeout(clearGreeting, 4000);
-}
+//   // Clear greeting in 3 seconds
+//   setTimeout(clearGreeting, 4000);
+// }
 
-// Clear Greeting
-function clearGreeting() {
-  document.querySelector(".greetings").remove();
-}
+// // Clear Greeting
+// function clearGreeting() {
+//   document.querySelector(".greetings").remove();
+// }
