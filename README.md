@@ -10,6 +10,6 @@ This is a JavaScript version of my portfolio website, basically it is an active 
 4. Projects cards are animated as well. Each card includes, job description and necessary links
 
 ### Screenshots
-![](assets\img\landingPageImg.JPG)
+![alt text](./assets\img\landingPageImg.JPG)
 
 [See Project](https://nahrinoda.github.io/My-profile-in-Javascript/landingPage.html)
