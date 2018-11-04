@@ -82,6 +82,7 @@ div.card {
   text-align: left;
   transition: all 0.3s 0s ease-in;
   z-index: 1;
+  box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.25);
 }
 div.card img {
   max-width: 300px;
@@ -198,4 +199,22 @@ div.card.show div.flap1 {
 }
 div.card.show div.flap2 {
   transition: all 0.3s 0.2s ease-out;
+}
+
+.homeIcon{
+  position: absolute;
+  right: 10%;
+  top: 10px;
+  
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.25);
+}
+
+.returnIcon{
+  position: absolute;
+  left: 10%;
+  top: 10px;
+  
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.25);
 }
