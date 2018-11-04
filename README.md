@@ -11,15 +11,15 @@ This is a JavaScript version of my portfolio website, basically it is an active 
 3. My portfolio page is seperated into two animated sections
 4. Projects cards are animated as well. Each card includes, job description and necessary links
 
-### Screenshots
+### Landing Page
 ![Landing Page](landingPageImg.jpg)
-Landing Page
 
+### Second Page
 ![Second Page](secondPage.jpg)
-Second Page
 
+### Developer Page
 ![Developer Page](developerPage.jpg)
-Developer Page
 
+### Designer Page
 ![Designer Page](designerPage.jpg)
-Designer Page
+
