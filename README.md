@@ -1,5 +1,7 @@
 ### My Profile in JavaScript
 
+[See Project](https://nahrinoda.github.io/My-profile-in-Javascript/landingPage.html)
+
 This is a JavaScript version of my portfolio website, basically it is an active portfolio that allows visitors to instantly interact with me by checking my work, skills, send me instant msgs and interact with my schedule....
 
 ### Landing Page Background 
@@ -11,5 +13,13 @@ This is a JavaScript version of my portfolio website, basically it is an active 
 
 ### Screenshots
 ![Landing Page](landingPageImg.jpg)
+Landing Page
 
-[See Project](https://nahrinoda.github.io/My-profile-in-Javascript/landingPage.html)
+![Second Page](secondPage.jpg)
+Second Page
+
+![Developer Page](developerPage.jpg)
+Developer Page
+
+![Designer Page](designerPage.jpg)
+Designer Page
