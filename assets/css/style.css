@@ -191,6 +191,42 @@ h2 {
   left: 1%;
 }
 
+ul {
+  position: relative;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #fff;
+  bottom: 26%;
+  margin: 0 auto;
+  font-size: large;
+  width: 60rem;
+  text-align: center;
+}
+
+li {
+  width: calc(100% / 8);
+  display: inline-block;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
+  border-radius: 1rem;
+  padding: 0.6rem;
+  margin: 0.3rem;
+}
+
+#color1{
+  background-color: rgb(212, 42, 0);
+}
+#color2{
+  background-color: rgb(0, 126, 6);
+}
+#color3{
+  background-color: rgb(76, 0, 255);
+}
+#color4{
+  background-color: rgb(158, 2, 163);
+}
+#color5{
+  background-color: rgb(255, 0, 76);
+}
+
 .card {
   position: absolute;
   display: block;
@@ -208,6 +244,11 @@ h2 {
   margin-top: 1rem;
   box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.404);
 }
+
+.hideFooter {
+  visibility: hidden;
+}
+
 @keyframes float {
   0% {
     box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
@@ -224,38 +265,68 @@ h2 {
 }
 
 @media (max-width: 800px) {
+  .responsive {
+    padding: 0;
+    height: 140%;
+    margin: 0 auto;
+    overflow: visible;
+  }
   h1 {
     font-size: 2rem;
   }
   h2 {
     font-size: 2rem;
     white-space: pre-wrap;
-    left: 50%;
-    top: 38%;
   }
   .button {
     width: 12rem;
   }
   .myImg {
-    width: 50%;
-    top: -30%;
-    left: 24%;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 1rem;
   }
   .myName {
     font-size: 2rem;
-    top: 0;
-    left: 25%;
+    margin: 0 auto;
   }
   .card {
-    width: 20rem;
-    left: 7%;
-    top: 30%;
-    justify-content: center;
+    width: 70%;
+    font-size: 1.2rem;
+    margin: 0 auto;
   }
   .aboutMe {
-    width: 20rem;
-
+    width: 100%;
+  }
+  .icons {
+    display: inline-block;
+    width: 100%;
+    top: 4%;
+    left: 0%;
+  }
+  .myIcons {
+    display: inherit;
+    margin-right: 1rem;
+    animation: float 3s ease-in-out infinite;
+    z-index: 3;
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    bottom: 10%;
+    width: 100%;
     justify-content: center;
+  }
+
+  li {
+    display: block;
+    width: 100px;
+   
+  }
+  footer {
+    top: 205%;
+   
   }
 }
 
