@@ -162,7 +162,7 @@ h2 {
   /* animation: float 3s ease-in-out infinite; */
   z-index: 3;
   box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.404);
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .myIcons {
   position: relative;
