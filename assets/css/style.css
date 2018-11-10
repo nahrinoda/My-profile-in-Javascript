@@ -177,6 +177,7 @@ h2 {
   width: 43rem;
   position: relative;
   float: right;
+  left: -1%;
 }
 
 .icons {
@@ -299,6 +300,8 @@ li {
   }
   .aboutMe {
     width: 100%;
+   display: flex;
+    
   }
   .icons {
     display: inline-block;
@@ -315,7 +318,7 @@ li {
   ul {
     display: flex;
     flex-wrap: wrap;
-    bottom: 10%;
+    bottom: 1%;
     width: 100%;
     justify-content: center;
   }
@@ -326,7 +329,7 @@ li {
    
   }
   footer {
-    top: 205%;
+    top: 210%;
    
   }
 }
