@@ -156,13 +156,13 @@ h2 {
 
 .myImg {
   border-radius: 5%;
-  display: block;
+  position: relative;
   width: 25%;
-  position: absolute;
+  
   /* animation: float 3s ease-in-out infinite; */
   z-index: 3;
   box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.404);
-  margin-bottom: 2rem;
+  
 }
 .myIcons {
   position: relative;
