@@ -162,6 +162,7 @@ h2 {
   /* animation: float 3s ease-in-out infinite; */
   z-index: 3;
   box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.404);
+  margin-bottom: 1rem;
 }
 .myIcons {
   position: relative;
@@ -238,7 +239,6 @@ li {
   color: rgb(109, 74, 74);
   z-index: 1;
   padding: 1rem;
-  padding-bottom: 1.5rem;
   line-height: 1.5;
   border-radius: 1rem;
   text-align: justify;
